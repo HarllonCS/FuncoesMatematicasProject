@@ -1,0 +1,60 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(239, 228, 176);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.tabuada-titulo {
+    background-color: rgb(221, 88, 0);
+    color: white;
+    text-align: center;
+    margin: auto;
+    margin-top: 80px;
+    width: 500px;
+}
+
+.tela-mult {
+    background-color: white;
+    width: 440px;
+    margin: auto;
+    margin-top: 60px;
+    padding: 10px;
+    border: 5px solid rgb(221, 88, 0);
+}
+
+label {
+    color:rgb(221, 88, 0);
+    font-weight: bold;
+    font-size: 15pt;
+}
+
+.num1 {
+    margin-top: 20px;
+}
+
+.num1, .num2 {
+    margin-bottom: 30px;
+}
+
+input[type="number"] {
+    border-radius: 3px;
+    border: 2px solid rgba(0, 0, 0, 0.363);
+    width: 70px;
+    padding: 5px;
+    font-size: 14pt;
+}
+
+.btn {
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    padding: 8px;
+    background-color: rgb(221, 88, 0);
+    border-style: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
