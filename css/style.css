@@ -1,0 +1,49 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(239, 228, 176);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.index-titulo {
+    background-color: rgb(221, 88, 0);
+    text-align: center;
+    margin-top: 0px;
+    color: white;
+    font-size: 70px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.tela-escolha {
+    background-color: white;
+}
+
+a {
+    padding: 5px;
+    display: inline-block;
+    width: 280px;
+    text-decoration: none;
+}
+
+figure {
+    border: 1px solid black;
+    width: 220px;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+figcaption {
+    color: black;
+}
+
+img {
+    border: 1px solid black;
+    padding: 5px;
+    margin: auto;
+    display: block;
+}
