@@ -1,0 +1,84 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(239, 228, 176);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Cabeçalho */
+
+header {
+    background-color: rgb(221, 88, 0);
+    color: white;
+    margin-top: -40px;
+}
+
+h1 {
+    padding: 30px 0px 30px 0px;
+    font-size: 60px;
+    text-align: center;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    background-color: rgb(221, 88, 0);
+    color: white;
+    width: 250px;
+    text-align: center;
+    margin: auto;
+    font-size: 25px;
+    padding: 6px 8px 6px 8px;
+}
+
+/* Tela de Escolha */
+
+div {
+    float: left;
+    margin-left: 400px;
+    background-color: white;
+    border: 3px solid rgb(221, 88, 0);
+    box-shadow: 8px 11px rgba(0, 0, 0, 0.219);
+}
+
+figure {
+    float: left;
+    border: 1px solid rgb(180, 180, 180);
+    border-radius: 5px;
+    width: 250px;
+    padding: 4px;
+    cursor: pointer;
+    color: rgb(94, 94, 94);
+    transition: .3s;
+}
+
+figure:hover {
+    border-color: black;
+    color: black;
+}
+
+/* Imagens ícones */
+
+img {
+    display: block;
+    margin: auto;
+    border: 1px solid rgb(119, 119, 119);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* Textos abaixo das imagens */
+
+figcaption {
+    text-align: justify;
+    border-top: 1px solid rgb(180, 180, 180);
+    margin-top: 12px;
+}
+
+span {
+    color: rgb(221, 88, 0);
+    font-weight: bold;
+}
